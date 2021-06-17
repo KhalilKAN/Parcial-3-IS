@@ -16,3 +16,12 @@ notifications:
   #     - kanasir@hotmail.com
   #   on_success: always
   #   on_failure: always
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key:
+    secure: "lSl+QrqMjwfK0T8sz7k+xin5eVNOvb4yHa4wvbP9GqAn+Q5rKkvBCJ8p8WItZQC44ahaV9faSwmHe3uRZg1a+kQY2S9+G9utGKxJE3pEqZjl/9qQBh26PGji11cp67DXt4ZEtKCVT6kVXFopuC+pLFV5P+ojWUVDrhZvoLB4gKybQbrUOtaRKUEK3M6tHM79/PthqXrMdKFOowxkk1RToaC3PV4toUXjLUi4gADOmQFK85GCsQCKm2Ebz1KeN1tXf1nv7rWGnIAviyVOAWChlzIhW3JrYsVuzDgtQQeFNeiAKocqx65qVLtHJX0ZR2ja8i1jo/t6wvkLlZ9s3NuYtI7X6Rm4g74mhFGUJ5XLpm6Jc1T6M8scHcTsEAej2XbpxCMnJKGlnjiv3aA8gFnBFQp38Zkk3j13JNV16jH7BEcOF4QSwtUgyBxpqzyOucMQRl+VZnYJgxzDWctgENKbN8EZi8Ir0DuGYcrs5jh1qinYqMSB8pMZJ+d8J66rHy22bWWUZFt8imynT1FWB3+62l8Doh3/RcTyL2tswnQsWZ8Wepn813SNYgiNiHRNidLWZ4c2zZPghN88+kx4UDjJ6BsroprWfBBCLAzPQqPBfiikSkVRIJGgcTZSuc52srmY6aakdXt0aBF7SFf+e7fxLOATH4NCdPQRycNsz/lQJnY="
+  app: parcial-3-is
+  on:
+    repo: KhalilKAN/Parcial-3-IS
