@@ -1,0 +1,18 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js: "14"
+git: 
+  depth: 3
+script:
+  - yarn test
+notifications: 
+  slack: 
+    secure: "n92YhSAwste90mO7SpuRVM8t8t7kc/p+steywddrQxlAwPBJiz4xjXOBpTNkeBZEuiafuuh0VlbkPR9ym4wj4Tf0OS/lueraxW7ijm5zFxtbt2a7P5i/gERKhXz0eMe6yYf4wJHgWaRB0OBV9e12PPFhq+7jsShxXggTFxY+Ya4gJJQyb9+mT12e84hWowOGSu0VhiK8fM8esz3tVJqAWRg2DIbgyWkvbBphZSv+mzEVasdbhLd8GNo1kFG4T1KGt8M3wwzkKr2TJmi15EnT6G+ketLZrI/IFFMxrBClnLzNIFoPaaiR2vUz5YFWrJ0VErV5W22M4cJYgho5wb9X3Kt5XORkq6pOGXxp814VhnpWmwaz6Ogym2ToxmfSq3ygelpJbX0ydZmJ760SxfotTdHZoqIopayQbvvpxmAkIOQAXOo3/mMPS9C/DSm3u3W6PqcQU6OIvFfMPPsSNEocBNCTn9rYShREJ3hkDQaEjOAQdRlE9tiV1dG5KGCvitI5lMY7DMJhkqRgBtT/y3lFeOlusFvsZ289j/wJpvxKYsBa7zKjikUumK+VIbAdehSOgmDvVFzUiVjFYT84/d1HTx8tfFyUPC1N0TE+LZjj2C1/COAPh4KUckN4zqWrtbuPRbl8zW++hrgtZ8H9IAnTM7il44fbJy1WkAPNoufmwQ4="
+  # email:
+  #   recipients:
+  #     - kanasir@hotmail.com
+  #   on_success: always
+  #   on_failure: always

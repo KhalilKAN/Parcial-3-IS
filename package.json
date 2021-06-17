@@ -1,0 +1,27 @@
+{
+  "name": "parcial-3-is",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculadora.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhalilKAN/Parcial-3-IS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhalilKAN/Parcial-3-IS/issues"
+  },
+  "homepage": "https://github.com/KhalilKAN/Parcial-3-IS#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.0"
+  }
+}
