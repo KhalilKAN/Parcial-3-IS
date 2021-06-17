@@ -3,3 +3,5 @@ module.exports = {
         return a + b;
     }
 }
+
+document.write(suma(1,2));
