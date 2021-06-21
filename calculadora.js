@@ -4,4 +4,4 @@ module.exports = {
     }
 }
 
-document.write(suma(1,2));
+document.write(suma(1,3));
