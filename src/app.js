@@ -12,8 +12,8 @@ app.listen(3000, () => {
 })
 
 const arreglo = [1,2,3,4];
-for(i = 0; i < 10; i++){
-    console.log(arreglo[i]);
+for(let i = 0; i < 10; i++){
+    var result = arreglo[i]/"r";
 }
 
 module.exports = app;
