@@ -6,8 +6,14 @@ cache:
 node_js: "14"
 git: 
   depth: 3
+
+addons:
+  sonarcloud:
+    organization: khalilkan
+    token: d117f38c58f83fd2de87e5f8d4951ab3429acd94
 script:
   - yarn test
+  - sonar-scanner
 notifications: 
   slack: 
     secure: "lRLhxUpWVNiInqLv3SK1rSGpQKQQ5UyntIXjf8k+fYh7ErZm68P+tssuCMSozVzJ9q4ZMn3/WXgoOFOJztSQLIrhDQH9F8k651ApBSFnw5do34WBO2Ep4Yfw4AQ1/SXY9fL593rN2tQoox+3DgL/JFlMtmkGAVHeFb1ZALnC+9gTqubQYKbcssFDD/ar8OYFUreN1PniLF+yRAdwsE3v3jtwYwXi369E52/aODjSZqGvDYt1Zos2sthWTySz472TbkiNdHdhM/xbtCkJs1NhN9tYrwM1HsxdoRprB0lwPH3umceY1umeVVzGra1hPMGH22Bi7zkwk6iYiyaDiCslT5eoavVxLwPaxc6xbWdO0AwLEWToyuBRZDd2shLOn8IaqcBPejKm6dqGCuXyKMOCQCYyRoKd3AdxIhGBe1eQ/BIOm7MBtPU32Jmp9DktMWFuqvRX1O2mBD4cTJaYijIwzeaUO5YdoGgAlwKsK/g7gk7tTnPXsU5Ngd7XG0yIJyI1Yx2VTEkKS6GUEdx6g/rCPw6/nz7RRbSFJwsDWDt/Tt1t8enm92HqR01qrUcWrmqoC9GjJidGxdSJlrHB8wce1LBawq7kUMzcquimBoOT5c++J9cl86TaLYhUd4YIUoMHWA3LNXsblDKHv8GqJ2x8LhJ997ieouoUtEUH+BZ90kc="
