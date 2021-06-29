@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "calculadora.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "mocha || exit 0"
+    "test": "mocha ./src/test || exit 0"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KhalilKAN/Parcial-3-IS.git"
@@ -20,11 +18,11 @@
     "url": "https://github.com/KhalilKAN/Parcial-3-IS/issues"
   },
   "homepage": "https://github.com/KhalilKAN/Parcial-3-IS#readme",
-  "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.0.0"
-  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
   }
 }
