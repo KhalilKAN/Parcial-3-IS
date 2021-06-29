@@ -1,6 +1,6 @@
 //Import Routers
 import {Router} from 'express'
-import suma from '../calculadora'
+import suma from '..'
 const router = Router();
 
 //Routes

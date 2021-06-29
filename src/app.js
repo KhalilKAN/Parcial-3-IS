@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const suma = require("./calculadora").suma;
+const suma = require(".").suma;
 document.write(suma(1,3));
 
 app.get('/', (req, res) => {
