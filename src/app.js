@@ -11,4 +11,9 @@ app.listen(3000, () => {
     console.log("OK");
 })
 
+const arreglo = [1,2,3,4];
+for(i = 0; i < 10; i++){
+    console.log(arreglo[i]);
+}
+
 module.exports = app;
