@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const calculadora = require("../index");
+const calculadora = require("../calculadora");
 
 const result = calculadora.suma(1,3);
 
