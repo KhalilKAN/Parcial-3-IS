@@ -1,11 +1,6 @@
 const express = require("express");
-
-// const ruta = require("./routes/index");
 const app = express();
-
-
 const suma = require('./calculadora').suma;
-
 
 app.get('/', function(req, res){
     res.send(String(suma(1,2)));
