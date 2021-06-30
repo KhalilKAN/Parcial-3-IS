@@ -1,10 +1,12 @@
 //Import Routers
-import {Router} from 'express'
-import suma from '..'
-const router = Router();
+var express = require("express");
+const suma = require('../index');
+const router = express();
 
 //Routes
 //GET: Obtener
-router.get('/', function(){
+router.get('/', function(req, res){
     document.write(suma.suma(1,2));
 }); //Obtener peliculas
+
+module.exports = router;
