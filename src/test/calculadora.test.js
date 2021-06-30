@@ -5,6 +5,6 @@ const result = calculadora.suma(1,3);
 
 describe("Test Calculadora", function(){
     it("Test funcion suma", function(){
-        assert.equal(result, 4);
+        assert.equal(result, 5);
     });
 });
