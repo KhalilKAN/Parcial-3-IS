@@ -8,4 +8,3 @@ describe("Test Calculadora", function(){
         assert.equal(result, 4);
     });
 });
-
