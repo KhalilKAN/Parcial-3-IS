@@ -1,5 +1,5 @@
 function suma(a, b){
-    return a+b;
+    return a + b;
 }
 
 // var arreglo = [1,2,3,4,5];
